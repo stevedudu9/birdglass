@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "0.1",
+  "projectBytes": 28335004,
+  "windows": [
+    {
+      "state": "preview",
+      "label": "Garden-facing window",
+      "dotCount": 720,
+      "idsMatch": true,
+      "layoutMatches": true,
+      "allOutlinesHave48Points": true
+    },
+    {
+      "state": "preview",
+      "label": "Courtyard window (example)",
+      "dotCount": 600,
+      "idsMatch": true,
+      "layoutMatches": true,
+      "allOutlinesHave48Points": true
+    },
+    {
+      "state": "preview",
+      "label": "Performance test renamed (illustration)",
+      "dotCount": 10000,
+      "idsMatch": true,
+      "layoutMatches": true,
+      "allOutlinesHave48Points": true
+    }
+  ],
+  "note": "Desktop browser, actual downloaded JSON, illustrated test panes. Real-phone performance remains unverified."
+}

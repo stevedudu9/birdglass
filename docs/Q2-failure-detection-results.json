@@ -1,0 +1,27 @@
+[
+  {
+    "InjectedFault": "generation",
+    "TestExit": 1,
+    "FailureDetected": true
+  },
+  {
+    "InjectedFault": "member3",
+    "TestExit": 1,
+    "FailureDetected": true
+  },
+  {
+    "InjectedFault": "member2",
+    "TestExit": 1,
+    "FailureDetected": true
+  },
+  {
+    "InjectedFault": "count",
+    "TestExit": 1,
+    "FailureDetected": true
+  },
+  {
+    "InjectedFault": "projection",
+    "TestExit": 1,
+    "FailureDetected": true
+  }
+]

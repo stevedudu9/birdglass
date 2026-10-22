@@ -1,0 +1,23 @@
+[
+  {
+    "widthMm": 4000,
+    "heightMm": 2500,
+    "count": 4000,
+    "medianMs": 31.84,
+    "issue": ""
+  },
+  {
+    "widthMm": 3000,
+    "heightMm": 4000,
+    "count": 0,
+    "medianMs": null,
+    "issue": "This layout exceeds the 4,000-dot prototype limit. Use a smaller individual pane."
+  },
+  {
+    "widthMm": 5000,
+    "heightMm": 5000,
+    "count": 0,
+    "medianMs": null,
+    "issue": "This layout exceeds the 4,000-dot prototype limit. Use a smaller individual pane."
+  }
+]

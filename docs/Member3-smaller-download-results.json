@@ -1,0 +1,23 @@
+{
+  "windows": 8,
+  "totalDots": 80000,
+  "beforeReportBytes": 59253716,
+  "reportBytes": 4241492,
+  "reportReductionPercent": 92.84,
+  "originalProjectBytes": 197627233,
+  "gzipProjectBytes": 66495795,
+  "gzipReductionPercent": 66.35,
+  "allWindowRecordsMatchAfterExtractingExceptTimestamps": true,
+  "headerMatchesExceptTimestamp": true,
+  "pngPreviewsLoaded": 8,
+  "pngWidth": 1280,
+  "pngHeightIncludingNotice": 1015,
+  "phoneViewportWidth": 390,
+  "phoneDocumentWidth": 375,
+  "ordinaryTwoWindowReportBytes": 627372,
+  "automatedTests": 158,
+  "testFiles": 19,
+  "typecheckPassed": true,
+  "productionBuildPassed": true,
+  "realPhoneHardwareTested": false
+}

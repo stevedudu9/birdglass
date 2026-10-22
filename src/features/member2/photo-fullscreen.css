@@ -1,0 +1,35 @@
+.bg-photo-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.bg-fullscreen-button:disabled{opacity:.5;cursor:not-allowed}
+.bg-angle-test-hint{flex:none;margin:0;background:#fff7df;border-top:1px solid #e8d697;padding:8px 12px;color:#63521c;font-size:11px;line-height:1.6}
+.bg-front-compare{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 12px;background:#eef6f2;font-size:12px;flex:none}
+.bg-front-compare>div{display:grid;gap:4px}
+.bg-front-compare strong{font-size:15px;color:#174f42}
+.bg-front-compare>div>span{font-size:11px;color:#527363}
+.bg-scan-badge{font-size:10px;padding:5px 8px;background:white;border:1px solid #d5e5dd;border-radius:5px;white-space:nowrap}
+.bg-scan-workspace{box-sizing:border-box;width:100%;padding:20px;background:#263632;display:grid;place-items:center}
+.bg-scan-square{box-sizing:border-box;position:relative;width:min(760px,100%);aspect-ratio:1/1;flex:none;min-width:0;min-height:0;overflow:hidden;overscroll-behavior:contain;background:#e7ece9;box-shadow:0 5px 28px #0005;outline:1px solid #ffffff38}
+.bg-scan-square:focus-visible{outline:3px solid #a8d5c2;outline-offset:3px}
+.bg-scan-content{aspect-ratio:1/1;width:100%;height:100%;margin:0}
+.bg-scan-content svg{display:block;width:100%;height:100%;max-height:none}
+.bg-scan-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 12px;background:#fff;flex:none}
+.bg-scan-footer p{margin:0;font-size:11px;color:#527363}
+.bg-context-hint{flex:none;margin:0;padding:7px 12px;font-size:11px;line-height:1.5;background:#eef6f2;color:#345748}
+.bg-photo-wrap.bg-photo-fullscreen.bg-photo-front-view .bg-scan-workspace{flex:1;min-height:0;overflow:hidden;container-type:size;padding:12px}
+.bg-photo-wrap.bg-photo-fullscreen.bg-photo-front-view .bg-scan-square{width:min(900px,100cqw,100cqh)}
+.bg-rectifying{width:100%;height:100%;display:grid;place-items:center;margin:0;padding:20px;box-sizing:border-box;text-align:center;font-size:14px;color:#345748}
+.bg-scan-square>.bg-error{margin:20px}
+@media(max-width:600px){.bg-scan-workspace{padding:10px}.bg-front-compare>div>span{font-size:10px}.bg-scan-footer{padding:8px 10px}.bg-context-hint{font-size:10px}}
+.bg-fullscreen-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:32px;padding:6px 10px;border:1px solid var(--line,#dceee5);border-radius:6px;background:var(--canvas,#f6faf8);color:var(--ink,#0c2b1e);font:inherit;font-size:11px;white-space:nowrap;cursor:pointer}
+.bg-fullscreen-button:hover{background:var(--ice,#edf7f2)}
+.bg-fullscreen-button:focus-visible{outline:3px solid #80a9ef;outline-offset:3px}
+.bg-photo-wrap.bg-photo-fullscreen{position:fixed;inset:0;z-index:10000;width:100vw;height:100vh;height:100dvh;max-width:none;max-height:none;margin:0;border:0;border-radius:0;background:var(--canvas,#f6faf8);display:flex;flex-direction:column;overflow:hidden}
+.bg-photo-wrap.bg-photo-fullscreen::backdrop{background:var(--canvas,#f6faf8)}
+.bg-photo-wrap.bg-photo-fullscreen .bg-photo-scroll{flex:1;min-height:0;max-height:none;overflow:auto;overscroll-behavior:contain}
+.bg-photo-wrap.bg-photo-fullscreen[data-zoomed=false] .bg-photo-content{width:100%;height:100%;min-width:100%;margin:0}
+.bg-photo-wrap.bg-photo-fullscreen[data-zoomed=false] .bg-photo-content svg{width:100%;height:100%;max-height:none;aspect-ratio:auto}
+.bg-photo-wrap.bg-photo-fullscreen[data-zoomed=true] .bg-photo-content{height:auto;margin:0}
+.bg-photo-wrap.bg-photo-fullscreen[data-zoomed=true] .bg-photo-content svg{width:100%;height:auto;max-height:none}
+.bg-photo-wrap.bg-photo-fullscreen .bg-image-toolbar{flex:none;gap:12px;padding:12px 18px;font-size:11px;background:#fff;border-top:1px solid var(--line,#dceee5)}
+.bg-photo-wrap.bg-photo-fullscreen .bg-photo-tools{margin-left:auto}
+.bg-fullscreen-hint{flex:none;margin:0;padding:0 18px 10px;color:var(--muted,#496d5d);background:#fff;font-size:11px;line-height:1.6}
+@media(max-width:600px){.bg-photo-tools{gap:8px}.bg-photo-wrap.bg-photo-fullscreen .bg-image-toolbar{padding:10px 12px}.bg-photo-wrap.bg-photo-fullscreen .bg-photo-tools{margin-left:0;width:100%;justify-content:space-between}.bg-fullscreen-hint{padding:0 12px 10px}.bg-fullscreen-button{min-height:36px}}

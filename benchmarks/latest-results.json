@@ -1,0 +1,26 @@
+[
+  {
+    "widthMm": 4000,
+    "heightMm": 2500,
+    "count": 4000,
+    "completedRuns": 4,
+    "measuredRuns": 3,
+    "medianMs": 15.56
+  },
+  {
+    "widthMm": 3000,
+    "heightMm": 4000,
+    "count": 4800,
+    "completedRuns": 4,
+    "measuredRuns": 3,
+    "medianMs": 19.99
+  },
+  {
+    "widthMm": 5000,
+    "heightMm": 5000,
+    "count": 10000,
+    "completedRuns": 4,
+    "measuredRuns": 3,
+    "medianMs": 30.84
+  }
+]

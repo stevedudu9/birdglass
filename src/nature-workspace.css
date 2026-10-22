@@ -1,0 +1,85 @@
+/* Assessment-only Nature-Luxe canvas. Homepage styles are deliberately untouched. */
+.nature-workspace {
+ --ink: #14253e; --muted: #536578; --blue: #0b8065; --blue-dark: #08664f; --line: #d9e9e4; --ice: #eef8f5;
+ position: relative; isolation: isolate; color: #14253e;
+ background: radial-gradient(ellipse at 2% 18%,#d6eee4a8,transparent 36%),radial-gradient(ellipse at 100% 42%,#dceffbba,transparent 39%),radial-gradient(ellipse at 8% 77%,#d9eee5,transparent 38%),linear-gradient(180deg,#edf8fc 0%,#f3faf6 30%,#eaf6f7 64%,#e2f0e8 100%);
+}
+.nature-workspace .studio-main { max-width: 1456px; padding: 24px 36px 30px; }
+.nature-workspace-hero { position: relative; isolation: isolate; min-height: 320px; border-radius: 26px; overflow: hidden; margin-bottom: 24px; border: 1px solid #ffffffc9; background: #edf8fc; box-shadow: 0 10px 36px #25474f0a; }
+.nature-workspace-scene { position: absolute; z-index: -2; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 48%; }
+.nature-workspace-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg,#f6fbfdf7 2%,#f3faffee 34%,#f0f8fb99 53%,transparent 75%); }
+.nature-workspace-copy { padding: 28px 38px 38px; max-width: 780px; }
+.nature-workspace-copy .workspace-back { display: inline-flex; font-size: 11px; color: #2b6571; margin-bottom: 26px; text-decoration: none; }
+.nature-workspace-copy .workspace-back:hover { text-decoration: underline; text-underline-offset: 4px; }
+.nature-workspace-copy h1 { font-family: Georgia,serif; font-size: clamp(34px,3.7vw,54px); font-weight: 400; line-height: 1.09; letter-spacing: -1.6px; color: #14253e; margin: 0 0 18px; }
+.nature-workspace-copy p { color: #314e65; font-size: 13px; line-height: 1.8; margin: 0; max-width: 54ch; }
+.nature-workspace-signature { position: absolute; right: 24px; bottom: 18px; display: flex; align-items: center; gap: 8px; padding: 10px 14px; border-radius: 12px; color: #205547; background: #f7fff5df; font: italic 17px/1.2 Georgia,serif; }
+.nature-workspace-signature svg { width: 32px; flex-shrink: 0; }
+.nature-workspace .user-workflow { border-color: #d7e7e4; border-radius: 18px; background: #ffffffd9; box-shadow: 0 5px 20px #214a3b06; }
+.nature-workspace .user-workflow a { padding: 16px; }
+.nature-workspace .user-workflow a:hover { background: #edf7f7; }
+.nature-workspace .user-workflow strong { color: #14253e; }
+.nature-workspace .user-workflow small { color: #08715a; background: #e3f4ec; }
+.nature-workspace .window-collection { padding: 20px; border: 1px solid #dcebe5; border-radius: 20px; background: #ffffffa3; }
+.nature-workspace .collection-heading h2 { color: #14253e; }
+.nature-workspace .window-item { border-radius: 12px; }
+.nature-workspace .window-item.selected { background: #eef8f6; border-color: #77b8a9; box-shadow: 0 0 0 1px #c1e1d5; }
+.nature-workspace .bg-editor-grid { border-radius: 24px; border-color: #dcebe5; background: linear-gradient(145deg,#ffffffed,#f9fcffed); box-shadow: 0 12px 38px #173f4a0a; }
+.nature-workspace .bg-photo-wrap { border-radius: 16px; border-color: #d5e6e8; }
+.nature-workspace .bg-upload { background: linear-gradient(130deg,#f1f8fc,#eef8f2); border-radius: 16px; border-color: #9cc5bd; }
+.nature-workspace .bg-input-panel { border-color: #deebe8; }
+.nature-workspace .bg-field input,
+.nature-workspace .bg-field select { background: #f6fafc; border-radius: 10px; border-color: #d4e4e6; color: #20354e; }
+.nature-workspace .bg-workspace-heading h2 { font-family: Georgia,serif; font-weight: 400; font-size: 26px; letter-spacing: -.6px; color: #14253e; }
+.nature-workspace .member3-results { background: linear-gradient(140deg,#fff,#f6fcfa); border-radius: 24px; border-color: #d7e8e2; box-shadow: 0 12px 38px #173f4a0a; }
+.nature-workspace .m3-title { background: linear-gradient(110deg,#e1f2ee,#e6f2fc); color: #14253e; border-bottom: 1px solid #d3e7e2; }
+.nature-workspace .m3-title h2 { font-weight: 400; color: #14253e; }
+.nature-workspace .m3-title p { color: #314e65; }
+.nature-workspace .m3-owner { color: #206a59; }
+.nature-workspace .m3-photo-link { color: #0b7059; background: #ffffffc2; border-color: #c7dfd8; }
+.nature-workspace .m3-summary.treatment-summary { background: transparent; }
+.nature-workspace .m3-summary > div { background: #f0f8f8; border-color: #dbe9e8; box-shadow: none; }
+.nature-workspace .m3-summary strong { color: #14253e; }
+.nature-workspace .screening-panel,
+.nature-workspace .building-plan { background: linear-gradient(135deg,#fffffff5,#f7fbfff5); border: 1px solid #d7e8e2; box-shadow: 0 12px 38px #173f4a0a; border-radius: 24px; }
+.nature-workspace .building-plan h2 { color: #14253e; font-weight: 400; }
+.nature-workspace .building-plan .planner-card { background: linear-gradient(135deg,#fff,#f6fbfc); border-radius: 16px; }
+.nature-workspace .building-plan .planner-card.highlight-card { background: linear-gradient(130deg,#e2f3eb,#e9f5fa); border-color: #38947b; }
+.nature-workspace .building-plan .planner-card .card-value { color: #14253e; font-weight: 400; }
+.nature-workspace .studio-footer { border-top: 1px solid #c9e1d8; background: linear-gradient(120deg,#e6f3edb3,#e9f5fbb3); border-radius: 20px; padding: 28px; margin-top: 30px; }
+.nature-workspace .quick-guide { border-radius: 20px; background: #ffffffd9; border-color: #d7e8e2; }
+.nature-workspace .app-notice { border-radius: 12px; border-color: #c6e4d6; background: #edf8f2; }
+@media (max-width: 1100px) {
+ .nature-workspace .studio-main { padding: 20px 24px 28px; }
+ .nature-workspace-copy { padding: 26px 30px 36px; }
+ .nature-workspace-copy h1 { font-size: 42px; }
+ .nature-workspace-hero { min-height: 300px; }
+ .nature-workspace .user-workflow a { padding: 14px 12px; }
+}
+@media (max-width: 700px) {
+ .nature-workspace .studio-main { padding: 14px 14px 22px; }
+ .nature-workspace-hero { min-height: 315px; border-radius: 22px; }
+ .nature-workspace-copy { padding: 22px 24px 90px; }
+ .nature-workspace-copy h1 { font-size: clamp(31px,6.5vw,41px); letter-spacing: -1px; }
+ .nature-workspace-copy p { font-size: 12px; max-width: 36ch; }
+ .nature-workspace-copy p br { display: none; }
+ .nature-workspace-hero::before { background: linear-gradient(100deg,#f4fbfff5,#f4fbffe8 46%,#f2f8fb88); }
+ .nature-workspace-scene { object-position: 68% 40%; }
+ .nature-workspace-copy .workspace-back { margin-bottom: 22px; }
+ .nature-workspace-signature { bottom: 14px; right: 16px; font-size: 14px; }
+ .nature-workspace .user-workflow { margin-bottom: 20px; }
+ .nature-workspace .user-workflow a { padding: 12px 9px; }
+ .nature-workspace .window-collection { padding: 16px; }
+ .nature-workspace .bg-editor-grid,
+ .nature-workspace .member3-results,
+ .nature-workspace .screening-panel,
+ .nature-workspace .building-plan { border-radius: 22px; }
+ .nature-workspace .bg-workspace-heading h2 { font-size: 23px; }
+ .nature-workspace .m3-title { padding: 22px; }
+ .nature-workspace .m3-summary > div { padding: 16px; }
+ .nature-workspace .studio-footer { padding: 22px; }
+}
+@media (min-width: 901px) and (max-height: 800px) { .nature-workspace .nature-luxe-right { position: static; } }
+@media (prefers-reduced-motion: reduce) {
+ .nature-workspace *, .nature-workspace *::before, .nature-workspace *::after { scroll-behavior: auto; transition: none; animation: none; }
+}

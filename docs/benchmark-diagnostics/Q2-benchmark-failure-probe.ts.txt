@@ -1,0 +1,37 @@
+// Diagnostic fault injection: run this file alone, never as a normal passing test.
+import { vi } from 'vitest';
+
+vi.mock('../src/features/member3', async importOriginal => {
+  const actual = await importOriginal<typeof import('../src/features/member3')>();
+  let generationCalls = 0;
+  return {
+    ...actual,
+    generatePattern: (...args: Parameters<typeof actual.generatePattern>) => {
+      generationCalls++;
+      if (process.env.BIRDGLASS_BENCH_PROBE === 'generation' && generationCalls === 2)
+        throw new Error('Injected generation failure on second repetition');
+      const layout = actual.generatePattern(...args);
+      return process.env.BIRDGLASS_BENCH_PROBE === 'count' ? { ...layout, dotCount: layout.dotCount + 1 } : layout;
+    },
+    validatePattern: (...args: Parameters<typeof actual.validatePattern>) => ({
+      ...actual.validatePattern(...args),
+      ...(process.env.BIRDGLASS_BENCH_PROBE === 'member3' ? { geometryPassed: false } : {}),
+    }),
+  };
+});
+vi.mock('../src/features/member2/validation', async importOriginal => {
+  const actual = await importOriginal<typeof import('../src/features/member2/validation')>();
+  return { ...actual, validateLayout: (...args: Parameters<typeof actual.validateLayout>) => ({
+    ...actual.validateLayout(...args),
+    ...(process.env.BIRDGLASS_BENCH_PROBE === 'member2' ? { geometryPassed: false } : {}),
+  }) };
+});
+vi.mock('../src/features/member2/geometry', async importOriginal => {
+  const actual = await importOriginal<typeof import('../src/features/member2/geometry')>();
+  return { ...actual, projectDots: (...args: Parameters<typeof actual.projectDots>) => {
+    const projected = actual.projectDots(...args);
+    return process.env.BIRDGLASS_BENCH_PROBE === 'projection' ? projected.slice(1) : projected;
+  } };
+});
+
+await import('../benchmarks/member3.bench.test');

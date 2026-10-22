@@ -1,0 +1,15 @@
+.pattern-status { display: flex; align-items: flex-start; gap: 12px; padding: 16px 18px; margin: 20px 0; border: 1px solid #dbe7e6; border-radius: 14px; background: #f8fbfc; }
+.pattern-status-icon { display: inline-grid; place-items: center; flex: 0 0 28px; width: 28px; height: 28px; background: #eaf0f3; color: #536578; border-radius: 50%; font-size: 15px; font-weight: 700; }
+.pattern-status-icon svg { width: 18px; height: 18px; }
+.pattern-status-content { min-width: 0; }
+.pattern-status-content > strong { display: block; font-size: 13px; line-height: 1.6; color: #20354e; }
+.pattern-status.pattern-status-geometry-pass { background: linear-gradient(115deg,#f7fcf9,#f8fbfd); border-color: #d5e8df; }
+.pattern-status-geometry-pass .pattern-status-icon { color: #087052; background: #e0f3e9; }
+.pattern-status-geometry-pass .pattern-status-content > strong { color: #146047; }
+.pattern-status .pattern-review-label { margin: 3px 0 0; color: #536578; font-size: 11px; line-height: 1.6; }
+.pattern-status ul { margin: 10px 0 0; padding-left: 18px; font-size: 12px; line-height: 1.8; color: #536578; overflow-wrap: anywhere; }
+.pattern-status.pattern-status-fail { background: #fff5f3; border-color: #e4b7ad; border-left: 3px solid #b34e3d; }
+.pattern-status-fail .pattern-status-icon { color: #993e30; background: #f8e0da; }
+.pattern-status-fail .pattern-status-content > strong, .pattern-status-fail ul { color: #853e31; }
+.pattern-status.pattern-status-incomplete { border-left: 3px solid #c89431; }
+@media (max-width: 600px) { .pattern-status { padding: 14px; gap: 10px; } }

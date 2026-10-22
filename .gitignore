@@ -1,0 +1,10 @@
+node_modules/
+.vite/
+coverage/
+*.log
+.qa/
+.npm-cache/
+handoff/
+.feature-backups/
+.env
+.DS_Store

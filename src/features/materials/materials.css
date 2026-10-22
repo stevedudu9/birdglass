@@ -1,0 +1,174 @@
+/* BirdGlass Nature-Luxe treatment estimator. Existing pricing and controls are unchanged. */
+.material-planner { margin-top: 36px; padding: 30px; border: 1px solid #dcebe5; border-radius: 28px; background: #ffffffd9; color: #14253e; scroll-margin-top: 106px; box-shadow: 0 12px 44px #163d4110; }
+.material-section-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 22px; }
+.material-section-heading h2 { font-family: Georgia, serif; font-size: clamp(26px, 2.5vw, 34px); line-height: 1.2; margin: 0 0 8px; font-weight: 500; color: #14253e; letter-spacing: -.8px; }
+.material-section-heading p { margin: 0; color: #536578; font-size: 13px; line-height: 1.6; }
+.material-section-heading > span { color: #21634e; background: #eef8f1; border-radius: 99px; padding: 9px 13px; font-size: 11px; white-space: nowrap; }
+.material-catalog { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 16px; }
+.material-card { min-width: 0; display: grid; grid-template-columns: 100px minmax(0,1fr); border: 1px solid #dbe9e4; border-radius: 18px; overflow: hidden; background: #fff; transition: border-color .18s, box-shadow .18s; }
+.material-card.is-selected { border-color: #138668; box-shadow: 0 0 0 2px #13866822; }
+.material-card:hover { border-color: #7db9a7; box-shadow: 0 8px 24px #1a4a3b0d; }
+.material-card-body { padding: 18px 16px; min-width: 0; }
+.material-card h3 { font-size: 14px; line-height: 1.5; margin: 0 0 8px; color: #14253e; }
+.material-card p { font-size: 11px; line-height: 1.6; color: #536578; margin: 0 0 12px; }
+.material-card-rate { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px; }
+.material-card-rate strong { font-family: Georgia,serif; color: #174938; font-size: 25px; font-weight: 500; }
+.material-card-rate > span { font-size: 11px; color: #536578; }
+.material-price-status { display: block; color: #536578; font-size: 10px; margin: 4px 0 14px; }
+.material-card .app-button { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 9px 10px; font-size: 11px; border-radius: 9px; border-color: #c6dfd4; }
+.material-card .app-button svg { width: 15px; height: 15px; flex-shrink: 0; }
+.material-card.is-selected .app-button { background: #e8f5ef; color: #08624a; }
+.material-swatch { position: relative; min-width: 0; min-height: 130px; overflow: hidden; isolation: isolate; display: flex; align-items: flex-end; justify-content: center; padding: 12px; background: linear-gradient(140deg,#66878f55,#1c484466),url('/images/window-example.png') 65% 40% / cover; }
+.material-swatch::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(150deg,#d6e6e530,transparent 45%,#0b302f70); }
+.material-film-sheet { position: absolute; inset: 15% 14% 19%; transform: rotate(-10deg) skewY(-5deg); border: 1px solid #ffffffb3; border-radius: 4px 4px 4px 22px; background-image: radial-gradient(circle,#fff 1.8px,transparent 2.2px),linear-gradient(120deg,#ffffffe6,#c2e2e04a 18%,#ffffff20 68%,#ffffffb5); background-size: 15px 15px,100% 100%; box-shadow: 8px 14px 16px #10262d30; }
+.material-swatch > span { position: relative; z-index: 1; font-size: 9px; color: white; text-shadow: 0 1px 3px #123330; }
+.material-swatch-premium-clear-film { background-position: 43% 35%; }
+.material-swatch-premium-clear-film .material-film-sheet { background-color: #d5edff15; }
+.material-swatch-die-cut-frosted .material-film-sheet { background-color: #dfebe1ad; }
+.material-swatch-system { flex-direction: column; justify-content: center; align-items: center; gap: 16px; color: #fff; }
+.material-swatch-system > svg { width: 44px; height: 44px; }
+.material-swatch-none .material-film-sheet { opacity: .2; }
+.material-specialist, .material-advanced { border-top: 1px solid #dcebe5; padding-top: 18px; margin-top: 24px; font-size: 12px; color: #536578; }
+.material-specialist summary, .material-advanced summary { font-weight: 700; color: #1a5446; cursor: pointer; padding: 6px 0; }
+.material-specialist > div { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; margin: 14px 0; }
+.material-specialist .app-button { display: grid; gap: 7px; text-align: left; justify-content: start; white-space: normal; }
+.material-specialist button > span { color: #536578; font-size: 11px; }
+.material-advanced p { max-width: 80ch; line-height: 1.7; }
+.material-advanced-fields { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; margin: 20px 0; }
+.material-advanced-fields .plan-field { font-size: 12px; color: #314f5d; }
+.material-advanced-fields input { background: #f8fbfc; border-color: #d3e4e4; }
+.installation-quote-toggle { display: flex; align-items: center; gap: 10px; line-height: 1.5; margin: 16px 0; }
+.installation-quote-toggle input { width: 18px; height: 18px; accent-color: #138668; }
+.material-review-link { display: inline-block; color: #086c58; font-size: 12px; font-weight: 650; margin-top: 24px; text-underline-offset: 4px; }
+.material-notice { padding: 18px; border-radius: 12px; background: #f5f9fb; color: #536578; font-size: 13px; line-height: 1.7; }
+.nature-luxe-dashboard { margin-top: 24px; }
+.nl-installation-bar { display: flex; align-items: center; gap: 14px; padding: 18px 20px; border: 1px solid #dcebe5; border-radius: 16px; background: linear-gradient(110deg,#f6fbf8,#f3f8fc); margin-bottom: 20px; }
+.nl-installation-bar label { font-size: 12px; font-weight: 700; color: #14253e; flex-shrink: 0; }
+.nl-installation-bar select { width: 100%; min-width: 0; min-height: 44px; border-radius: 9px; padding: 10px 12px; border: 1px solid #d4e3e6; color: #20354e; background: white; font-size: 12px; }
+.nature-luxe-grid { display: grid; grid-template-columns: minmax(0,1.65fr) minmax(300px,1fr); gap: 22px; align-items: start; }
+.nature-luxe-left { display: grid; gap: 16px; min-width: 0; }
+.nl-project-material { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 16px; }
+.nl-detail-card { min-width: 0; padding: 22px; border: 1px solid #e0ebe8; border-radius: 18px; background: #fff; }
+.nl-detail-heading { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 20px; }
+.nl-heading-icon { display: inline-grid; flex-shrink: 0; place-items: center; width: 34px; height: 34px; border-radius: 11px; color: #168467; background: #eaf6f0; }
+.nl-heading-icon svg { width: 21px; height: 21px; }
+.nl-detail-heading h3 { font-size: 14px; color: #14253e; line-height: 1.4; margin: 1px 0 5px; }
+.nl-detail-heading p { font-size: 11px; color: #536578; margin: 0; line-height: 1.6; }
+.nl-facts { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; margin: 0; }
+.nl-facts > div { min-width: 0; background: linear-gradient(125deg,#eef7fc,#f4faf8); padding: 14px; border-radius: 12px; }
+.nl-facts dt { font-size: 11px; line-height: 1.5; color: #536578; margin-bottom: 7px; }
+.nl-facts dd { margin: 0; color: #14253e; font-size: 14px; line-height: 1.5; font-weight: 650; overflow-wrap: anywhere; }
+.nl-facts small { display: block; margin-top: 6px; font-size: 10px; font-weight: 400; color: #536578; line-height: 1.6; }
+.nl-project-material .nl-facts { grid-template-columns: 1fr; gap: 10px; }
+.nl-inline-link { display: inline-flex; gap: 7px; align-items: center; color: #08705a; font-size: 11px; font-weight: 650; margin-top: 16px; text-decoration: none; }
+.nl-inline-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+.nl-inline-link svg { width: 13px; height: 13px; }
+.nl-selected-card { background: linear-gradient(145deg,#fff,#f4faf7); }
+.nl-selected-material-body { display: flex; flex-direction: column; gap: 14px; }
+.nl-selected-material-body .material-swatch { border-radius: 12px; width: 100%; min-height: 156px; }
+.nl-selected-material-body .material-film-sheet { inset: 15% 20% 23%; transform: rotate(-8deg) skewY(-5deg); background-size: 18px 18px,100% 100%; }
+.nl-selected-label { display: inline-block; color: #07694d; border-radius: 99px; background: #d7f1e5; font-size: 10px; padding: 4px 9px; margin-bottom: 8px; }
+.nl-selected-material-body h4 { font-size: 14px; line-height: 1.5; color: #14253e; margin: 0 0 7px; }
+.nl-selected-material-body p { color: #536578; font-size: 11px; line-height: 1.7; margin: 0; }
+.nl-calculation-lines { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+.nl-calculation-lines > div { border-left: 2px solid #b4dcd2; padding-left: 14px; min-width: 0; }
+.nl-calculation-lines > div + div { border-color: #b8dbee; }
+.nl-calculation-label { font-size: 12px; font-weight: 650; color: #29475b; }
+.nl-calculation-lines p { color: #14253e; font-size: 13px; margin: 9px 0; line-height: 1.8; overflow-wrap: anywhere; }
+.nl-calculation-lines small { display: block; font-size: 11px; color: #536578; line-height: 1.7; }
+.nl-entered-charges { display: grid; grid-template-columns: 1fr auto; gap: 8px; border-top: 1px solid #e1ebe8; padding-top: 16px; margin-top: 20px; font-size: 12px; color: #29475b; }
+.nl-entered-charges small { grid-column: 1/-1; line-height: 1.6; color: #536578; }
+.nature-luxe-right { position: sticky; top: 105px; min-width: 0; }
+.nl-sticky-panel { border: 1px solid #d7e7e2; background: white; border-radius: 22px; overflow: hidden; box-shadow: 0 16px 36px #194f4010; }
+.nl-cost-art { position: relative; overflow: hidden; isolation: isolate; padding: 26px 24px 76px; background: radial-gradient(ellipse at top right,#dff0fa,transparent 75%),linear-gradient(140deg,#eaf7ef,#f6f9ed); }
+.nl-cost-title { display: flex; gap: 10px; align-items: center; margin-bottom: 26px; }
+.nl-cost-title h3 { font-size: 15px; line-height: 1.4; margin: 0 0 4px; color: #14253e; }
+.nl-cost-title p { font-size: 11px; line-height: 1.6; margin: 0; color: #536578; }
+.nl-subtotal-label { display: block; font-size: 11px; color: #486276; margin-bottom: 7px; }
+.nl-hero-price-amount { position: relative; z-index: 1; display: block; font-family: Georgia,serif; font-size: clamp(32px,3.3vw,48px); font-weight: 400; color: #14253e; line-height: 1.16; letter-spacing: -1.5px; overflow-wrap: anywhere; }
+.nl-hero-bird { position: absolute; right: 22px; top: 112px; width: 32px; opacity: .55; }
+.nl-hero-bird path { fill: #326679; }
+.forest-silhouette-wrapper { position: absolute; bottom: -2px; left: 0; width: 100%; z-index: -1; line-height: 0; }
+.forest-silhouette-svg { width: 100%; height: 85px; }
+.nl-cost-content { padding: 0 24px 24px; }
+.nl-panel-breakdown { margin: 0 0 20px; }
+.nl-panel-breakdown > div { display: flex; justify-content: space-between; gap: 16px; padding: 14px 0; border-bottom: 1px solid #e2ebe8; font-size: 12px; line-height: 1.6; }
+.nl-panel-breakdown dt { color: #536578; }
+.nl-panel-breakdown dd { margin: 0; font-weight: 650; text-align: right; color: #14253e; white-space: nowrap; }
+.material-cost-summary .nl-plan-cta-button { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; padding: 12px 17px; color: white; background: linear-gradient(115deg,#0a856b,#08664f); border: 1px solid #08755d; border-radius: 99px; font-size: 12px; font-weight: 650; box-shadow: 0 6px 16px #08755d1a; transition: box-shadow .18s, background .18s; }
+.material-cost-summary .nl-plan-cta-button:hover:not(:disabled) { background: #08664f; box-shadow: 0 8px 20px #08755d30; }
+.nl-plan-cta-button svg { width: 18px; height: 18px; flex-shrink: 0; }
+.nl-cost-notice, .nl-action-help { color: #536578; font-size: 11px; line-height: 1.8; margin: 16px 0; }
+.nl-cost-notice > span { display: block; color: #7c581b; margin-bottom: 4px; }
+.nl-action-help { color: #365b71; }
+.nl-assumptions-accordion { border-top: 1px solid #e2ebe8; margin-top: 18px; padding-top: 12px; }
+.nl-assumptions-accordion summary { cursor: pointer; color: #0a6e58; font-size: 12px; font-weight: 650; padding: 5px 0; }
+.nl-accordion-body { font-size: 11px; color: #536578; line-height: 1.8; padding-top: 8px; }
+.nl-accordion-body a { color: #086957; text-underline-offset: 3px; }
+.nl-accordion-body small { display: block; font-size: 10px; margin-top: 5px; }
+.nl-extra-details { margin: 16px 0; }
+.nl-extra-details > div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #e5eeeb; padding: 6px 0; }
+.nl-extra-details dd { margin: 0; text-align: right; }
+.material-summary-compact { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 18px; padding: 18px; border: 1px solid #dcebe5; border-radius: 14px; background: linear-gradient(110deg,#f0f8f3,#f1f7fb); margin-bottom: 20px; }
+.material-summary-compact span { display: block; color: #536578; font-size: 11px; line-height: 1.5; margin-bottom: 8px; }
+.material-summary-compact strong { font-size: 14px; color: #14253e; line-height: 1.6; }
+.material-summary-compact small { display: block; margin-top: 5px; font-size: 11px; line-height: 1.6; color: #536578; }
+.material-summary-compact a { font-size: 12px; color: #0a6e58; align-self: center; }
+@media (max-width: 1200px) {
+ .material-catalog { gap: 12px; }
+ .material-card { grid-template-columns: 1fr; }
+ .material-card > .material-swatch { min-height: 110px; }
+ .material-card > .material-swatch .material-film-sheet { inset: 20% 20%; }
+ .nl-project-material { grid-template-columns: 1fr; }
+ .nl-project-material .nl-facts { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .nl-selected-material-body { display: grid; grid-template-columns: minmax(100px,.8fr) minmax(0,1fr); align-items: center; }
+ .nl-selected-material-body .material-swatch { min-height: 145px; }
+}
+@media (max-width: 900px) {
+ .material-planner { padding: 24px; }
+ .nature-luxe-grid { grid-template-columns: minmax(0,1fr); }
+ .nature-luxe-right { position: static; }
+ .nl-cost-art { padding-bottom: 70px; }
+ .nl-hero-price-amount { font-size: 42px; }
+ .nl-cost-content { padding-top: 0; }
+ .material-advanced-fields { grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .material-specialist > div { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+ .material-planner { padding: 18px; border-radius: 22px; }
+ .material-section-heading { align-items: flex-start; }
+ .material-section-heading > span { display: none; }
+ .material-catalog { grid-template-columns: 1fr; gap: 12px; }
+ .material-card { grid-template-columns: 96px minmax(0,1fr); }
+ .material-card h3 { font-size: 14px; }
+ .material-card > .material-swatch .material-film-sheet { inset: 20% 12%; }
+ .material-card-body { padding: 16px; }
+ .nl-installation-bar { display: grid; grid-template-columns: 32px minmax(0,1fr); padding: 14px; gap: 10px; }
+ .nl-installation-bar select { grid-column: 1/-1; font-size: 16px; width: 100%; }
+ .nl-detail-card { padding: 18px; }
+ .nl-facts { gap: 10px; }
+ .nl-facts > div { padding: 12px; }
+ .nl-facts dd { font-size: 13px; }
+ .nl-calculation-lines { grid-template-columns: 1fr; gap: 20px; }
+ .nl-project-material .nl-facts { grid-template-columns: 1fr; }
+ .nl-selected-material-body { grid-template-columns: 96px minmax(0,1fr); gap: 14px; }
+ .nl-selected-material-body .material-swatch { min-height: 155px; }
+ .nl-selected-material-body .material-film-sheet { inset: 18% 12% 24%; }
+ .nl-cost-art { padding: 22px 20px 72px; }
+ .nl-cost-content { padding: 0 20px 20px; }
+ .nl-panel-breakdown > div { font-size: 11px; }
+ .material-advanced-fields, .material-summary-compact { grid-template-columns: 1fr; }
+ .material-advanced-fields input { font-size: 16px; }
+}
+@media (max-width: 360px) {
+ .nl-selected-material-body, .nl-facts { grid-template-columns: 1fr; }
+ .nl-selected-material-body .material-swatch { min-height: 125px; }
+ .nl-panel-breakdown > div { flex-wrap: wrap; gap: 5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+ .material-card, .material-cost-summary .nl-plan-cta-button { transition: none; }
+}
+.material-advanced-fields input[aria-invalid="true"] { border-color: #af3838; }
+.material-field-error { color: #982c2c; line-height: 1.5; }
+.material-field-help { color: #536578; line-height: 1.5; }
+.material-advanced-fields input:disabled { opacity: .65; cursor: not-allowed; }

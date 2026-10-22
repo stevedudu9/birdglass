@@ -1,0 +1,37 @@
+.screening-summary-card { --priority-accent:#3276b4; margin-top:24px; padding:18px 22px; border:1px solid #d9e7eb; border-left:3px solid var(--priority-accent); border-radius:18px; background:linear-gradient(120deg,#fff,#f5fafd); color:#14253e; }
+.screening-summary-card.screening-high { --priority-accent:#b54348; background:linear-gradient(120deg,#fff,#fff9f6); border-color:#ecdcd8; border-left-color:var(--priority-accent); }
+.screening-summary-card.screening-medium { --priority-accent:#996c17; background:linear-gradient(120deg,#fff,#fcfaf2); border-color:#e8e3d2; border-left-color:var(--priority-accent); }
+.screening-summary-card.screening-lower { --priority-accent:#0c795b; background:linear-gradient(120deg,#fff,#f1f9f5); border-color:#d9e8e0; border-left-color:var(--priority-accent); }
+.screening-summary-header { display:flex; justify-content:space-between; align-items:center; gap:18px; }
+.screening-summary-label { color:#536578; font-size:11px; }
+.screening-summary-header h3 { font:400 32px/1.2 Georgia,serif; color:var(--priority-accent); margin:6px 0 0; letter-spacing:-.6px; }
+.screening-completeness { display:grid; gap:5px; justify-items:end; text-align:right; }
+.screening-completeness strong { padding:6px 10px; background:#edf3f6; border-radius:99px; font-size:11px; font-weight:650; color:#395c73; }
+.screening-completeness span { font-size:10px; color:#536578; }
+.screening-summary-reasons { margin:12px 0; padding-left:18px; color:#314c5f; }
+.screening-summary-reasons li { font-size:13px; line-height:1.7; padding:2px 0; }
+.screening-summary-override, .screening-summary-notice { color:#486074; font-size:12px; line-height:1.7; margin:14px 0; }
+.screening-summary-notice { padding:10px 12px; border:1px solid #e6e6dc; border-radius:9px; background:#fcfaf3; }
+.screening-summary-followup { border-top:1px solid #e2eaed; margin-top:12px; padding-top:12px; }
+.screening-followup-heading { display:flex; align-items:baseline; justify-content:space-between; gap:12px; margin-bottom:10px; }
+.screening-followup-heading strong { font-size:12px; font-weight:650; color:#314c5f; }
+.screening-followup-heading > span { font-size:11px; color:#536578; }
+.screening-followup-list { list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px 20px; }
+.screening-followup-list li { min-width:0; display:flex; justify-content:space-between; align-items:baseline; gap:12px; font-size:12px; line-height:1.6; padding:6px 0; color:#314c5f; }
+.screening-followup-list small { font-size:10px; color:#617180; white-space:nowrap; }
+.screening-summary-card .screening-summary-details { margin-top:10px; font-size:12px; color:#536578; }
+.screening-summary-card .screening-summary-details > summary { cursor:pointer; color:#176a57; font-size:11px; padding:5px 0; font-weight:650; }
+.screening-summary-details > ul:not(.screening-followup-list) { padding-left:18px; font-size:12px; line-height:1.8; }
+.screening-summary-footer { margin-top:14px; padding-top:12px; border-top:1px solid #e2eaed; display:flex; justify-content:space-between; align-items:center; gap:18px; }
+.screening-summary-footer > p { color:#536578; font-size:11px; line-height:1.6; margin:0; max-width:52ch; }
+.screening-summary-footer .app-button { display:inline-flex; align-items:center; justify-content:space-between; gap:14px; color:#08664f; background:#edf7f2; border-color:#c7e0d5; border-radius:99px; padding:10px 15px; font-size:12px; flex-shrink:0; }
+.screening-summary-footer .app-button svg { width:16px; height:16px; }
+@media(max-width:700px) {
+ .screening-summary-card { padding:18px; }
+ .screening-summary-header { align-items:flex-start; }
+ .screening-summary-header h3 { font-size:29px; }
+ .screening-followup-list { grid-template-columns:1fr; gap:2px; }
+ .screening-summary-footer { flex-direction:column; align-items:stretch; gap:12px; }
+ .screening-summary-footer .app-button { width:100%; }
+}
+@media(max-width:380px) { .screening-summary-header { flex-direction:column; gap:12px; } .screening-completeness { justify-items:start; text-align:left; } }

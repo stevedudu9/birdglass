@@ -1,0 +1,18 @@
+{
+  "windows": 8,
+  "dotsPerWindow": 10000,
+  "totalDots": 80000,
+  "projectBytes": 183797166,
+  "elapsedMs": 2803.13,
+  "progress": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "note": "Desktop Node stress exercise only. Placeholder photo and shared physical-coordinate arrays; new projected outlines serialized per window. No peak-memory claim, real-photo browser or real-phone performance claim. Normal eight-window schema correctness is covered separately by the regular tests."
+}

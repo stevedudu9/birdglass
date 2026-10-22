@@ -1,0 +1,28 @@
+import { expect, it } from 'vitest';
+import { writeFileSync } from 'node:fs';
+import { BASELINE_GUIDELINE as guideline } from '../src/config/baseline';
+import { buildLayoutRequest, createWindow } from '../src/features/member2/model';
+import type { WindowDraft } from '../src/features/member2/types';
+import { generatePattern } from '../src/features/member3';
+import { buildProjectData } from '../src/demo/projectExport';
+import { emptyPlan } from '../src/demo/planning';
+
+it('exercises all eight windows with ten thousand dots each in desktop Node',async()=>{
+  const base:WindowDraft={...createWindow('Stress example'),dimensions:{width:'5000',height:'5000',unit:'mm'},
+    image:{imageId:'stress',name:'synthetic.png',dataUrl:'data:image/png;base64,AAAA',widthPx:1280,heightPx:900,orientationNormalized:true,kind:'illustration'},
+    corners:{tl:{u:.1,v:.1},tr:{u:.9,v:.1},br:{u:.9,v:.9},bl:{u:.1,v:.9}}};
+  base.layout=generatePattern(buildLayoutRequest(base,guideline),guideline);
+  const windows=Array.from({length:8},(_,i)=>{
+    const windowId=crypto.randomUUID();
+    return {...base,windowId,label:`Stress pane ${i+1}`,layout:{...base.layout!,windowId,layoutVersion:crypto.randomUUID()}};
+  });
+  const progress:number[]=[];
+  const start=performance.now();
+  const blob=await buildProjectData(windows,emptyPlan(),guideline,completed=>progress.push(completed));
+  const elapsedMs=Number((performance.now()-start).toFixed(2));
+  expect(progress).toEqual([1,2,3,4,5,6,7,8]);
+  expect(blob.size).toBeGreaterThan(180_000_000);
+  expect(await blob.slice(-2).text()).toBe(']}');
+  writeFileSync('../../../outputs/Member3-eight-window-stress.json',JSON.stringify({windows:8,dotsPerWindow:10000,totalDots:80000,projectBytes:blob.size,elapsedMs,progress,
+    note:'Desktop Node stress exercise only. Placeholder photo and shared physical-coordinate arrays; new projected outlines serialized per window. No peak-memory claim, real-photo browser or real-phone performance claim. Normal eight-window schema correctness is covered separately by the regular tests.'},null,2));
+});

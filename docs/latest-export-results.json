@@ -1,0 +1,11 @@
+{
+  "dotCount": 10000,
+  "outlineVertices": 480000,
+  "formattedHandoffBytes": 48275278,
+  "compactHandoffBytes": 22974352,
+  "reductionPercent": 52.41,
+  "singleWindowProjectBytes": 22976637,
+  "gzipProjectBytes": 2022735,
+  "gzipReductionPercent": 91.2,
+  "note": "Same numbers, physical coordinates, schema and all 48 outline points per dot. Placeholder image; real photos add bytes. Size comparison excludes transfer compression; this is not a real-phone memory or latency test."
+}

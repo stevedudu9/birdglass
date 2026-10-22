@@ -1,0 +1,1413 @@
+{
+  "generatedBy": "tests/member3-verification.test.ts",
+  "rows": [
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "columns",
+      "expected": 24,
+      "actual": 24,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "rows",
+      "expected": 30,
+      "actual": 30,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "dot count",
+      "expected": 720,
+      "actual": 720,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "first centre x (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "first centre y (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 × 1500 mm (aspect 0.80)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "columns",
+      "expected": 12,
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "rows",
+      "expected": 12,
+      "actual": 12,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "dot count",
+      "expected": 144,
+      "actual": 144,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "first centre x (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "first centre y (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "600 × 600 mm (aspect 1.00)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "columns",
+      "expected": 48,
+      "actual": 48,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "rows",
+      "expected": 18,
+      "actual": 18,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "dot count",
+      "expected": 864,
+      "actual": 864,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "first centre x (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "first centre y (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "2400 × 900 mm (aspect 2.67)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "columns",
+      "expected": 18,
+      "actual": 18,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "rows",
+      "expected": 48,
+      "actual": 48,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "dot count",
+      "expected": 864,
+      "actual": 864,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "first centre x (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "first centre y (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "900 × 2400 mm (aspect 0.38)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "columns",
+      "expected": 6,
+      "actual": 6,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "rows",
+      "expected": 37,
+      "actual": 37,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "dot count",
+      "expected": 222,
+      "actual": 222,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "first centre x (mm)",
+      "expected": 27.5,
+      "actual": 27.5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "first centre y (mm)",
+      "expected": 15,
+      "actual": 15,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 22.5,
+      "actual": 22.5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "305 × 1830 mm (aspect 0.17)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "columns",
+      "expected": 60,
+      "actual": 60,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "rows",
+      "expected": 9,
+      "actual": 9,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "dot count",
+      "expected": 540,
+      "actual": 540,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "first centre x (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "first centre y (mm)",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "3000 × 450 mm (aspect 6.67)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "columns",
+      "expected": 25,
+      "actual": 25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "rows",
+      "expected": 20,
+      "actual": 20,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "dot count",
+      "expected": 500,
+      "actual": 500,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "first centre x (mm)",
+      "expected": 17.25,
+      "actual": 17.25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "first centre y (mm)",
+      "expected": 18.80000000000001,
+      "actual": 18.80000000000001,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 12.25,
+      "actual": 12.25,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1234.5 × 987.6 mm (aspect 1.25)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 13.800000000000011,
+      "actual": 13.800000000000068,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "columns",
+      "expected": 2,
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "rows",
+      "expected": 2,
+      "actual": 2,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "dot count",
+      "expected": 4,
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "first centre x (mm)",
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "first centre y (mm)",
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "horizontal pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "60 × 60 mm (aspect 1.00)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "columns",
+      "expected": 1,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "rows",
+      "expected": 4,
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "dot count",
+      "expected": 4,
+      "actual": 4,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "first centre x (mm)",
+      "expected": 29.95,
+      "actual": 29.95,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "first centre y (mm)",
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "vertical pitch (mm)",
+      "expected": 50,
+      "actual": 50,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 24.95,
+      "actual": 24.95,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "59.9 × 160 mm (aspect 0.37)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "columns",
+      "expected": 1,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "rows",
+      "expected": 1,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "dot count",
+      "expected": 1,
+      "actual": 1,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "first centre x (mm)",
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "first centre y (mm)",
+      "expected": 5,
+      "actual": 5,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "marker diameter (mm)",
+      "expected": 10,
+      "actual": 10,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "left = right edge gap (mm)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "10 × 10 mm (aspect 1.00)",
+      "quantity": "top = bottom edge gap (mm)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "1200 → 1260 mm width change",
+      "quantity": "columns after change",
+      "expected": 26,
+      "actual": 26,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "arched top 1000 × 1200 mm",
+      "quantity": "dots fully on glass",
+      "expected": 454,
+      "actual": 454,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "arched top 1000 × 1200 mm",
+      "quantity": "geometry passed",
+      "expected": "true",
+      "actual": "true",
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "sloped top 1500 × 1000 mm",
+      "quantity": "dots fully on glass",
+      "expected": 438,
+      "actual": 438,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "sloped top 1500 × 1000 mm",
+      "quantity": "geometry passed",
+      "expected": "true",
+      "actual": "true",
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "triangle 1000 × 600 mm",
+      "quantity": "dots fully on glass",
+      "expected": 132,
+      "actual": 132,
+      "pass": true
+    },
+    {
+      "task": "1",
+      "case": "triangle 1000 × 600 mm",
+      "quantity": "geometry passed",
+      "expected": "true",
+      "actual": "true",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "valid 1200 × 1500",
+      "quantity": "geometryPassed",
+      "expected": "true",
+      "actual": "true",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "valid 1200 × 1500",
+      "quantity": "status (draft guideline)",
+      "expected": "incomplete",
+      "actual": "incomplete",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "valid 1200 × 1500",
+      "quantity": "status (reviewed guideline)",
+      "expected": "pass",
+      "actual": "pass",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "excessive spacing (55 mm pitch)",
+      "quantity": "geometryPassed",
+      "expected": "false",
+      "actual": "false",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "undersized markers (8 mm)",
+      "quantity": "geometryPassed",
+      "expected": "false",
+      "actual": "false",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "incomplete edge coverage (last column removed)",
+      "quantity": "geometryPassed",
+      "expected": "false",
+      "actual": "false",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "missing interior dot",
+      "quantity": "geometryPassed",
+      "expected": "false",
+      "actual": "false",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "dot outside the glass",
+      "quantity": "geometryPassed",
+      "expected": "false",
+      "actual": "false",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "forged dot count",
+      "quantity": "geometryPassed",
+      "expected": "false",
+      "actual": "false",
+      "pass": true
+    },
+    {
+      "task": "2",
+      "case": "treatment report + placement sheet",
+      "quantity": "positive certification claims",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1200 × 1500 mm",
+      "quantity": "dot count",
+      "expected": 720,
+      "actual": 720,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1200 × 1500 mm",
+      "quantity": "glass area (m²)",
+      "expected": 1.8,
+      "actual": 1.8,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1200 × 1500 mm",
+      "quantity": "glass area (sq ft)",
+      "expected": 19.37503875006,
+      "actual": 19.37503875006,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1200 × 1500 mm",
+      "quantity": "total marker area (m²)",
+      "expected": 0.05654866776461628,
+      "actual": 0.05654866776461628,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1200 × 1500 mm",
+      "quantity": "marked area (%)",
+      "expected": 3.1415926535897936,
+      "actual": 3.1415926535897936,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "120 × 150 cm",
+      "quantity": "dot count",
+      "expected": 720,
+      "actual": 720,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "120 × 150 cm",
+      "quantity": "glass area (m²)",
+      "expected": 1.8,
+      "actual": 1.8,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "120 × 150 cm",
+      "quantity": "glass area (sq ft)",
+      "expected": 19.37503875006,
+      "actual": 19.37503875006,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "120 × 150 cm",
+      "quantity": "total marker area (m²)",
+      "expected": 0.05654866776461628,
+      "actual": 0.05654866776461628,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "120 × 150 cm",
+      "quantity": "marked area (%)",
+      "expected": 3.1415926535897936,
+      "actual": 3.1415926535897936,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1.2 × 1.5 m",
+      "quantity": "dot count",
+      "expected": 720,
+      "actual": 720,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1.2 × 1.5 m",
+      "quantity": "glass area (m²)",
+      "expected": 1.8,
+      "actual": 1.8,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1.2 × 1.5 m",
+      "quantity": "glass area (sq ft)",
+      "expected": 19.37503875006,
+      "actual": 19.37503875006,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1.2 × 1.5 m",
+      "quantity": "total marker area (m²)",
+      "expected": 0.05654866776461628,
+      "actual": 0.05654866776461628,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "1.2 × 1.5 m",
+      "quantity": "marked area (%)",
+      "expected": 3.1415926535897936,
+      "actual": 3.1415926535897936,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "600 × 600 mm",
+      "quantity": "dot count",
+      "expected": 144,
+      "actual": 144,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "600 × 600 mm",
+      "quantity": "glass area (m²)",
+      "expected": 0.36,
+      "actual": 0.36,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "600 × 600 mm",
+      "quantity": "glass area (sq ft)",
+      "expected": 3.8750077500119997,
+      "actual": 3.8750077500119997,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "600 × 600 mm",
+      "quantity": "total marker area (m²)",
+      "expected": 0.011309733552923255,
+      "actual": 0.011309733552923255,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "600 × 600 mm",
+      "quantity": "marked area (%)",
+      "expected": 3.1415926535897936,
+      "actual": 3.1415926535897936,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "2.01 × 0.9 m",
+      "quantity": "dot count",
+      "expected": 738,
+      "actual": 738,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "2.01 × 0.9 m",
+      "quantity": "glass area (m²)",
+      "expected": 1.809,
+      "actual": 1.809,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "2.01 × 0.9 m",
+      "quantity": "glass area (sq ft)",
+      "expected": 19.4719139438103,
+      "actual": 19.4719139438103,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "2.01 × 0.9 m",
+      "quantity": "total marker area (m²)",
+      "expected": 0.05796238445873168,
+      "actual": 0.05796238445873168,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "2.01 × 0.9 m",
+      "quantity": "marked area (%)",
+      "expected": 3.2041119103776503,
+      "actual": 3.2041119103776503,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "91.5 × 213.4 cm",
+      "quantity": "dot count",
+      "expected": 817,
+      "actual": 817,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "91.5 × 213.4 cm",
+      "quantity": "glass area (m²)",
+      "expected": 1.95261,
+      "actual": 1.95261,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "91.5 × 213.4 cm",
+      "quantity": "glass area (sq ft)",
+      "expected": 21.017719118752588,
+      "actual": 21.017719118752588,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "91.5 × 213.4 cm",
+      "quantity": "total marker area (m²)",
+      "expected": 0.06416702994957152,
+      "actual": 0.06416702994957152,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "91.5 × 213.4 cm",
+      "quantity": "marked area (%)",
+      "expected": 3.286218443497243,
+      "actual": 3.286218443497243,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "19,991 sizes × 2 units",
+      "quantity": "count mismatches from unit conversion",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "4960 × 4960 mm (100 × 100 dots)",
+      "quantity": "marked area (%)",
+      "expected": 3.192467820781771,
+      "actual": 3.192467820781771,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "semicircular arch 1000 × 1200 mm",
+      "quantity": "glass area (m²) vs exact π formula",
+      "expected": 1.092699081698724,
+      "actual": 1.092692612774421,
+      "pass": true
+    },
+    {
+      "task": "3",
+      "case": "semicircular arch 1000 × 1200 mm",
+      "quantity": "bounding area (m²)",
+      "expected": 1.2,
+      "actual": 1.2,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "die-cut-frosted 1200 × 1500 mm",
+      "quantity": "material cost (RM)",
+      "expected": 135.62527125041998,
+      "actual": 135.62527125041998,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "standard-dot-film 1200 × 1500 mm",
+      "quantity": "material cost (RM)",
+      "expected": 174.37534875054,
+      "actual": 174.37534875054,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "premium-clear-film 1200 × 1500 mm",
+      "quantity": "material cost (RM)",
+      "expected": 232.50046500072,
+      "actual": 232.50046500072,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · diy",
+      "quantity": "labour (RM)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · diy",
+      "quantity": "indicative subtotal (RM)",
+      "expected": 174.37534875054,
+      "actual": 174.37534875054,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · standard",
+      "quantity": "labour (RM)",
+      "expected": 67.81263562520999,
+      "actual": 67.81263562520999,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · standard",
+      "quantity": "indicative subtotal (RM)",
+      "expected": 242.18798437575,
+      "actual": 242.18798437575,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · conservative",
+      "quantity": "labour (RM)",
+      "expected": 96.8751937503,
+      "actual": 96.8751937503,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · conservative",
+      "quantity": "indicative subtotal (RM)",
+      "expected": 271.25054250083997,
+      "actual": 271.25054250084,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · difficult access",
+      "quantity": "labour (RM)",
+      "expected": 67.81263562520999,
+      "actual": 67.81263562520999,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · difficult access",
+      "quantity": "installed total",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · difficult access",
+      "quantity": "missing components",
+      "expected": "High-rise / difficult-access charge",
+      "actual": "High-rise / difficult-access charge",
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film · difficult access + RM450 access quote",
+      "quantity": "installed total (RM)",
+      "expected": 692.18798437575,
+      "actual": 692.18798437575,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "specialist markers",
+      "quantity": "material cost",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM7 die-cut · standard",
+      "quantity": "labour (individual markers)",
+      "expected": null,
+      "actual": null,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM7 die-cut · DIY",
+      "quantity": "labour (RM)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film with RM15 custom rate",
+      "quantity": "material cost (RM)",
+      "expected": 290.6255812509,
+      "actual": 290.6255812509,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "switched to RM12 film",
+      "quantity": "material cost (RM)",
+      "expected": 232.50046500072,
+      "actual": 232.50046500072,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "switched to RM12 film",
+      "quantity": "labour (default standard, RM)",
+      "expected": 67.81263562520999,
+      "actual": 67.81263562520999,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM15 custom rate, method → DIY",
+      "quantity": "labour (RM)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM15 custom rate, method → DIY",
+      "quantity": "material cost unchanged (RM)",
+      "expected": 290.6255812509,
+      "actual": 290.6255812509,
+      "pass": true
+    },
+    {
+      "task": "4",
+      "case": "RM9 film + 10% allowance",
+      "quantity": "material cost (RM)",
+      "expected": 191.812883625594,
+      "actual": 191.812883625594,
+      "pass": true
+    },
+    {
+      "task": "5",
+      "case": "1200 × 1500 mm, perspective corners",
+      "quantity": "max round-trip error (mm)",
+      "expected": 0,
+      "actual": 0,
+      "pass": true
+    },
+    {
+      "task": "5",
+      "case": "1200 × 1500 mm, perspective corners",
+      "quantity": "projected dot count",
+      "expected": 720,
+      "actual": 720,
+      "pass": true
+    },
+    {
+      "task": "5",
+      "case": "arch 1000 × 1200 mm on photo",
+      "quantity": "projected centres inside outline",
+      "expected": 454,
+      "actual": 454,
+      "pass": true
+    },
+    {
+      "task": "5",
+      "case": "full flow 120 × 150 cm",
+      "quantity": "summary status",
+      "expected": "incomplete",
+      "actual": "incomplete",
+      "pass": true
+    },
+    {
+      "task": "5",
+      "case": "full flow 120 × 150 cm",
+      "quantity": "dot count",
+      "expected": 720,
+      "actual": 720,
+      "pass": true
+    },
+    {
+      "task": "5",
+      "case": "full flow 120 × 150 cm",
+      "quantity": "material cost RM9 (RM)",
+      "expected": 174.37534875054,
+      "actual": 174.37534875054,
+      "pass": true
+    }
+  ]
+}

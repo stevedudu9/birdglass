@@ -1,0 +1,23 @@
+[
+  {
+    "widthMm": 4000,
+    "heightMm": 2500,
+    "count": 4000,
+    "medianMs": 29.26,
+    "issue": ""
+  },
+  {
+    "widthMm": 3000,
+    "heightMm": 4000,
+    "count": 4800,
+    "medianMs": 31.81,
+    "issue": ""
+  },
+  {
+    "widthMm": 5000,
+    "heightMm": 5000,
+    "count": 10000,
+    "medianMs": 84.05,
+    "issue": ""
+  }
+]
